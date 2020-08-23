@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import monsterImgUrl from './../assets/monster.png';
 
 export default [
@@ -23,4 +24,11 @@ export default [
       url: monsterImgUrl,
       fileName: 'bigBlue.png'
     }},
+  {type: 'btn-group', author: 'them', data: { messages: [{
+    text: 'Particuliar',
+    callback: (id) => {console.log(id);}
+  },{
+    text: 'New',
+    callback: (id) => {console.log(id);}
+  }] }},
 ];

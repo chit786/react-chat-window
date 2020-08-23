@@ -42,6 +42,24 @@
   width: calc(100% - 90px);
 }
 
+.sc-message--div-button-group {
+  display: contents;
+}
+
+.sc-message--button-group {
+  background-color: #4e8cff; /* Green */
+  border: none;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-flex;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
 .sc-message--content.sent .sc-message--text {
   color: white;
   background-color: #4e8cff;
