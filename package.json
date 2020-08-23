@@ -1,6 +1,6 @@
 {
-  "name": "react-chat-window",
-  "version": "1.2.0",
+  "name": "react-chat-window-extras",
+  "version": "0.0.2",
   "description": "react-chat-window React component",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -36,12 +36,11 @@
     "react": "15.6.1",
     "react-dom": "15.6.1"
   },
-  "author": "kingofthestack",
-  "homepage": "https://kingofthestack.github.io/react-chat-window/",
+  "author": "chit786",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kingofthestack/react-chat-window.git"
+    "url": "https://github.com/chit786/react-chat-window.git"
   },
   "keywords": [
     "react-component"

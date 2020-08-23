@@ -1,3 +1,7 @@
+## This repo is worked on top of react-chat-window
+
+https://github.com/kingofthestack/react-chat-window
+
 # Warning!
 
 This repo is not actively maintained or developed by kingofthestack. PRs, issues, and feature requests may not receive any response.
