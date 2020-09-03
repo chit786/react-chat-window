@@ -1,6 +1,6 @@
 {
   "name": "react-chat-window-extras",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "react-chat-window React component",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -18,6 +18,7 @@
     "gh:publish": "nwb build-demo && gh-pages -d demo/dist"
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.0",
     "emoji-js": "3.2.2",
     "gh-pages": "^1.2.0",
     "prop-types": "15.5.10",
@@ -26,15 +27,15 @@
     "socket.io-client": "2.0.3"
   },
   "peerDependencies": {
-    "react": "15.x"
+    "react": "16.x"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
     "eslint": "^5.13.0",
     "eslint-plugin-react": "^7.12.4",
     "nwb": "^0.23.0",
-    "react": "15.6.1",
-    "react-dom": "15.6.1"
+    "react": "16.11.0",
+    "react-dom": "16.11.0"
   },
   "author": "chit786",
   "license": "MIT",

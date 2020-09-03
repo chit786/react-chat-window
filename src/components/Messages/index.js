@@ -4,6 +4,7 @@ import EmojiMessage from './EmojiMessage';
 import FileMessage from './FileMessage';
 import chatIconUrl from './../../assets/chat-icon.svg';
 import ButtonGroupMessages from './ButtonGroupMessages';
+import CardGroupMessages from './CardGroupMessages';
 
 
 class Message extends Component {
@@ -18,6 +19,8 @@ class Message extends Component {
       return <FileMessage {...this.props.message} />;
     case 'btn-group':
       return <ButtonGroupMessages {...this.props.message} />;
+    case 'card-group':
+      return <CardGroupMessages {...this.props.message} />;
     default:
       console.error(`Attempting to load message with unsupported file type '${type}'`);
     }
