@@ -50,11 +50,8 @@ const CardGroupMessages = (props) => {
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button component={() => <a href={message.src} className={classes.link} target = "_blank" rel = "noopener noreferrer">OPEN</a>} href={message.src} size="small" color="primary">
-              OPEN
-            </Button>
-            <Button size="small" color="primary" onClick={() => message.callback(index)}>
-              CHOOSE
+            <Button size="small" color="primary" onClick={() => message.callback(index, message.src)}>
+              {message.btnText}
             </Button>
           </CardActions>
         </Card>

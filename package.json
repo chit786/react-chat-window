@@ -1,6 +1,6 @@
 {
   "name": "react-chat-window-extras",
-  "version": "0.0.3",
+  "version": "0.0.7",
   "description": "react-chat-window React component",
   "main": "lib/index.js",
   "module": "es/index.js",

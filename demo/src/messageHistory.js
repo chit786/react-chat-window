@@ -40,16 +40,19 @@ export default [
     title: 'Cat 1',
     src: 'https://placekitten.com/200/287',
     description: 'Je 1 factuur vind je in My Vodafone. Druk hieronder op de knop en je komt meteen uit bij het overzicht van je facturen.',
+    btnText: 'CHOOSE',
     callback: (id) => {console.log(id);}
   },{
     title: 'Cat 2',
     src: 'https://placekitten.com/200/300',
     description: 'Je 2 factuur vind je in My Vodafone. Druk hieronder op de knop en je komt meteen uit bij het overzicht van je facturen.',
+    btnText: 'CHOOSE',
     callback: (id) => {console.log(id);}
   },{
     title: 'Cat 3',
     src: 'https://placekitten.com/408/287',
     description: 'Je 3 factuur vind je in My Vodafone. Druk hieronder op de knop en je komt meteen uit bij het overzicht van je facturen.',
+    btnText: 'CHOOSE',
     callback: (id) => {console.log(id);}
   }] 
   }}
